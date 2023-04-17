@@ -1,0 +1,686 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 5.5em;
+  background-color: #fff;
+}
+
+#shadow {
+  box-shadow: 0px 6px #e5e4e2;
+}
+
+.header-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1.2em 2em;
+}
+
+.header-items span {
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 1.3rem;
+  margin-top: 0.6em;
+}
+
+.header-items img {
+  height: 3em;
+  width: 7em;
+}
+
+.search {
+  padding-left: 1px;
+  width: 20em;
+  height: 3.5em;
+  border: 1px solid;
+  border-radius: 2em;
+  font-size: 1.1rem;
+  padding-left: 2em;
+}
+
+.style-icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.style-icon img {
+  width: 1.2em;
+  height: 1.2em;
+  margin: 1em 0 0 0.5em;
+}
+
+.cart {
+  position: absolute;
+  float: right;
+  right: 60em;
+  top: 1.7em;
+}
+
+.login {
+  width: 5em;
+  height: 2.4em;
+  border: 1px solid;
+  margin-top: 0.5em;
+  background-color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.signup {
+  width: 5em;
+  height: 2.4em;
+  border: 1px solid;
+  margin-top: 0.5em;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.map {
+  width: 3em;
+  height: 2.6em;
+  border: 1px solid;
+  margin-top: 0.5em;
+  background-color: #fff;
+}
+
+.map img {
+  width: 2em;
+  height: 1.8em;
+  margin-top: 0.4em;
+  margin-left: 0.4em;
+}
+
+#banner {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 25em;
+  background-color: #f9f9f9;
+}
+
+.div1 {
+  width: 49%;
+  height: 25em;
+  float: left;
+}
+
+.div2 {
+  width: 51%;
+  height: 25em;
+  float: right;
+}
+
+.div2 img {
+  width: 100%;
+  height: 25em;
+}
+
+.banner-box {
+  height: 12em;
+  width: 30em;
+  margin: 3em 4em;
+  background: #fff;
+  border-radius: 20px;
+}
+
+.box {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.banner-box h1 {
+  font-size: 2.5em;
+  text-align: center;
+  padding: 0.2em;
+  font-family: SuisseWorks, Georgia, Times, times new roman, serif,
+    apple color emoji, segoe ui emoji, segoe ui symbol;
+}
+
+.banner-box p {
+  font-size: 1.3em;
+  margin: 0 1em 0 1.4em;
+  padding: 0.2em;
+  font-family: SuisseWorks, Georgia, Times, times new roman, serif,
+    apple color emoji, segoe ui emoji, segoe ui symbol;
+}
+
+#selection {
+  width: 100%;
+  height: 15em;
+}
+
+#selection h1 {
+  font-size: 2.5em;
+  margin-top: 1.5em;
+  margin-left: 1em;
+}
+
+#selection h3 {
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  margin-left: 1.8em;
+  font-weight: 200;
+}
+
+#selection ul {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2em;
+}
+
+#selection ul li {
+  margin: 1.3em 0.7em;
+  list-style-type: none;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #595959;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#career {
+  width: 94%;
+  height: 45em;
+  border: 2px solid #bcbab7;
+  margin: 0 2em;
+}
+
+#career h1 {
+  font-size: 2.2em;
+  margin-top: 1.5em;
+  margin-left: 1em;
+}
+
+#career p {
+  font-size: 1.3em;
+  margin-top: 0.5em;
+  margin-left: 1.8em;
+  margin-right: 12em;
+  font-weight: 200;
+}
+
+#career button {
+  width: 10em;
+  height: 3em;
+  margin: 1.8em 2em;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-gap: 3em;
+  padding: 0 3em;
+}
+
+.card {
+  width: 20em;
+  height: 30em;
+  display: grid;
+  grid-template-rows: max-content 200px 1fr;
+}
+
+.card img {
+  object-fit: cover;
+  width: 75%;
+  height: 80%;
+}
+
+.card h2 {
+  max-width: 12em;
+}
+
+.card p {
+  float: left;
+  margin-left: -5em;
+}
+
+.content {
+  width: 20em;
+}
+
+#goals {
+  width: 100%;
+  height: 50em;
+  background-color: #f9f9f9;
+}
+
+#goals h1 {
+  font-size: 2.2em;
+  margin-top: 1.5em;
+  margin-left: 1em;
+  padding-top: 2em;
+}
+
+.goal {
+  height: 32em;
+  width: 25em;
+  margin: 3em 0.5em 0em 2em;
+  background: #fff;
+  border: 1px solid;
+  float: left;
+}
+
+.goal p {
+  font-size: 1.3em;
+  margin: 1em 1.5em;
+}
+
+.goal img {
+  width: 1.2em;
+  height: 1.2em;
+  margin: 2em 2em;
+}
+.ud-avatar {
+  background: #1c1d1f;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  object-fit: cover;
+  color: #fff;
+  margin-left: -3em;
+}
+
+.ud-heading-sm {
+  font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02rem;
+  font-size: 1.4rem;
+}
+
+.goal hr {
+  width: 20em;
+  margin: 2em 3em;
+}
+
+.play {
+  display: flex;
+  flex-direction: row;
+}
+
+.play img {
+  width: 2em;
+  height: 2em;
+  margin: -0.5em 2em;
+}
+
+.play p {
+  margin-left: -1em;
+  margin-top: -1em;
+  color: #5624d0;
+  font-weight: 900;
+}
+
+.checked {
+  color: orange;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  width: 12em;
+  margin-left: -4em;
+  align-items: center;
+}
+
+#categories {
+  width: 100%;
+  height: 40em;
+  margin-top: -16em;
+}
+
+.category {
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  width: 19em;
+  height: 20em;
+  margin: 2em 1.5em;
+  background-color: #f7f9fa;
+}
+
+.item p {
+  margin: 2em 0.3em;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+#categories h1 {
+  font-size: 2.2em;
+  margin-top: 1.5em;
+  margin-left: 1em;
+  padding-top: 2em;
+}
+
+#topics {
+  margin-top: 25em;
+  width: 100%;
+  height: 40em;
+  background-color: #f7f9fa;
+}
+
+#topics h1 {
+  font-size: 2.2em;
+  margin-top: 1.5em;
+  margin-left: 1em;
+  padding-top: 2em;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+}
+
+.list h2 {
+  font-size: 1.6em;
+  margin-top: 1em;
+  margin-left: 1.4em;
+  margin-bottom: 8em;
+}
+
+.list ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4em;
+  margin-left: -11.5em;
+  margin-right: 5em;
+}
+
+.list ul li {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #5624d0;
+  margin: 1em 1.8em;
+  list-style-type: none;
+}
+
+.list ul p {
+  font-size: 1.4em;
+  margin: -0.5em 1.8em;
+  margin-bottom: 1.4em;
+}
+
+#topics button {
+  width: 11em;
+  height: 3em;
+  margin: 1.8em 2em;
+  padding: 0.2em 0.2em;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+#brands {
+  width: 100%;
+  height: 20em;
+}
+
+#brands h1 {
+  font-size: 2.2em;
+  margin-top: 1.5em;
+  text-align: center;
+}
+
+#brands p {
+  font-size: 1.3em;
+  margin-top: 0.5em;
+  text-align: center;
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+}
+
+.brand img {
+  width: 4em;
+  height: 4em;
+  margin: 2em 8em 0 3em;
+}
+
+#stories {
+  margin-top: 5em;
+  width: 100%;
+  height: 40em;
+  background-color: #f7f9fa;
+}
+
+.innerContainer {
+  width: 65em;
+  height: 25em;
+  margin: 5em 5em 0 12em;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+}
+
+.storytext {
+  width: 52%;
+  height: 25em;
+  float: left;
+}
+
+.storytext img {
+  width: 1.2em;
+  height: 1em;
+  margin: 1em 0 0 1em;
+}
+
+.storytext p {
+  font-size: 1.4em;
+  margin: 2em 1em 0 1em;
+  font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont,
+    Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji,
+    segoe ui emoji, segoe ui symbol;
+}
+
+.storyimg {
+  width: 47%;
+  height: 25em;
+  float: right;
+}
+
+.ud-avatar {
+  margin: 3em 2em 0 8em;
+  background: #1c1d1f;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  object-fit: cover;
+  color: #fff;
+}
+
+.testimonial-card--user-avatar-large--1LTPT {
+  height: 12.8rem !important;
+  margin-bottom: 3.2rem;
+  width: 12.8rem !important;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  margin-top: -2em;
+}
+
+.titles p {
+  text-align: center;
+}
+
+#udemy-business {
+  margin-top: 5em;
+  width: 100%;
+  height: 44em;
+}
+
+.business-info {
+  width: 52%;
+  height: 35em;
+  float: left;
+}
+
+.business-img {
+  width: 47%;
+  height: 35em;
+  float: right;
+}
+
+.business-info img {
+  width: 13em;
+  height: 2.5em;
+  margin: 2em 0 0 5em;
+}
+
+.business-info h1 {
+  font-size: 3em;
+  font-family: var(--font-stack-heading-serif);
+  line-height: 1.35;
+  letter-spacing: -0.02rem;
+  margin: 0.3em 2em 0 1.4em;
+}
+
+.business-info ul li {
+  font-size: 1.5em;
+  margin: 1em 2em 0 4em;
+}
+
+.getUdemy {
+  font-size: 1.3em;
+  padding: 0.6em 0.6em;
+  background-color: #000;
+  color: #fff;
+  margin: 1em 0 0 3em;
+}
+
+.learn {
+  font-size: 1.3em;
+  padding: 0.6em 0.6em;
+  margin: 1em 0 0 0em;
+}
+
+.business-img img {
+  width: 30em;
+  height: 33em;
+  margin-left: 5em;
+}
+
+#instructor {
+  margin-top: 2em;
+  width: 100%;
+  height: 44em;
+}
+
+.instructor-img {
+  width: 47%;
+  height: 35em;
+  float: left;
+}
+
+.instructor-info {
+  width: 52%;
+  height: 35em;
+  float: right;
+}
+
+.instructor-img img {
+  width: 32em;
+  height: 33em;
+  margin-left: 5em;
+}
+
+.instructor-info h1 {
+  font-size: 3em;
+  font-family: var(--font-stack-heading-serif);
+  line-height: 1.35;
+  letter-spacing: -0.02rem;
+  margin: 3em 2em 0 1.4em;
+}
+
+.instructor-info p {
+  font-size: 1.5em;
+  margin: 1em 3em 0 3em;
+}
+
+.instructor-info button {
+  font-size: 1.3em;
+  padding: 0.6em 0.6em;
+  background-color: #000;
+  color: #fff;
+  margin: 1em 0 0 3.5em;
+}
+
+footer {
+  margin-top: 2em;
+  width: 100%;
+  height: 23em;
+  background-color: #1c1d1f;
+}
+
+.footer-inner-div {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  justify-content: space-evenly;
+  margin-left: -5em;
+}
+
+.language {
+  width: 17em;
+  height: 20em;
+  margin-top: 1em;
+}
+
+.footer-inner-div ul {
+  margin-top: 3em;
+}
+
+.footer-inner-div ul li {
+  font-size: 1.3em;
+  margin-top: 1em;
+  list-style-type: none;
+}
+
+.language img {
+  width: 1.5em;
+  height: 1.5em;
+  margin: -4em 0 0 1em;
+  padding: 0.1em 0.1em 0.1em;
+}
+
+.lang-item {
+  display: flex;
+  flex-direction: row;
+  width: 9em;
+  height: 2.9em;
+  float: right;
+  border: 1px solid;
+  background-color: #1c1d1f;
+}
+
+.lang-item p {
+  margin: 0.2em;
+  font-size: 1.5em;
+  padding: 0.2em 0.1em 0.1em;
+}
+
+.copyright {
+  margin: 16em 0 0 8em;
+}
+
+.footer-inner-div img {
+  width: 7em;
+  height: 3em;
+  margin-top: 2em;
+}
